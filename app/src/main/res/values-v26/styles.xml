@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="recordvalueTheme." parent="AppTheme">
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+</resources>

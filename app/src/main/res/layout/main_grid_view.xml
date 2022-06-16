@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/card_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:paddingTop="20dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="2">
+
+        <TextView
+            android:id="@+id/m_maxTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/max"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            android:paddingLeft="50dp"/>
+
+        <TextView
+            android:id="@+id/m_maxValue"
+            style="@style/mainvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:text="@string/number"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="4"
+            />
+
+        <TextView
+            android:id="@+id/m_spentTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spent"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/m_spentValue"
+            style="@style/mainvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+
+            app:layout_columnWeight="4" />
+
+        <TextView
+            android:id="@+id/m_remainTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remain"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/m_remainValue"
+            style="@style/mainvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            app:layout_columnWeight="4"
+            />
+
+        />
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

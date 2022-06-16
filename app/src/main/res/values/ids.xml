@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="parentCL" type="id" />
+
+    <item name="c_maxValue" type="id" />
+    <item name="c_spentValue" type="id" />
+    <item name="c_remainValue" type="id" />
+    <item name="c_maxTitle" type="id" />
+    <item name="c_spentTitle" type="id" />
+    <item name="c_remainTitle" type="id" />
+
+    <item name="m_maxValue" type="id" />
+    <item name="m_spentValue" type="id" />
+    <item name="m_remainValue" type="id" />
+    <item name="m_maxTitle" type="id" />
+    <item name="m_spentTitle" type="id" />
+    <item name="m_remainTitle" type="id" />
+
+    <item name="r_maxValue" type="id" />
+    <item name="r_spentValue" type="id" />
+    <item name="r_remainValue" type="id" />
+    <item name="r_maxTitle" type="id" />
+    <item name="r_spentTitle" type="id" />
+    <item name="r_remainTitle" type="id" />
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/m_clear"
+            android:title="delete all"
+            app:showAsAction="never"
+            android:orderInCategory="100"/>
+         <item
+            android:id="@+id/m_dummmyEntry"
+            android:title="insert dummy data"
+            app:showAsAction="never"
+            android:orderInCategory="100"/>
+         <item
+            android:id="@+id/m_dummyRetrieve"
+            android:title="retrieve dummy data"
+            app:showAsAction="never"
+            android:orderInCategory="100"/>
+
+
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.gridlayout.widget.GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gridLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/colorPrimary"
+    android:padding="10dp"
+    android:paddingTop="20dp"
+    app:columnCount="4"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:rowCount="2">
+
+        <TextView
+            android:id="@id/r_maxTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/max"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            android:paddingLeft="30dp"
+            />
+
+        <TextView
+            android:id="@id/r_maxValue"
+            style="@style/recordvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingLeft="30dp"
+            android:text="@string/number"
+            android:textColor="@color/gray"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="4" />
+
+        <TextView
+            android:id="@id/r_spentTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="spent"
+            app:layout_columnWeight="1"
+            app:layout_row="0" />
+
+        <TextView
+            android:id="@id/r_spentValue"
+            style="@style/recordvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textColor="@color/red"
+            app:layout_columnWeight="4" />
+
+        <TextView
+            android:id="@id/r_spentTitle"
+            style="@style/titleTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remain"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:id="@+id/r_remainVlaue"
+            style="@style/recordvalueTheme."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number"
+            android:textColor="@color/green"
+            app:layout_columnWeight="4" />
+
+        />
+</androidx.gridlayout.widget.GridLayout>
